@@ -11,11 +11,11 @@
 
 ## Current status
 
-We're code reviewing and auditing the existing modules, and figuring out how to have them testable against a number of platforms (this includes both simulators and real, physical devices). We're using the [node-firefox-ports](https://github.com/mozilla/node-firefox-ports) module as the base to help us devise a framework that works well. For more details, look at [sole's fork](https://github.com/sole/node-firefox-ports/) of the module (and [all the branches](https://github.com/sole/node-firefox-ports/branches)) or ask her in irc.mozilla.org #apps (generally online 11-19 GMT).
+We're code reviewing and auditing the existing modules, and figuring out how to have them testable against a number of platforms (this includes both simulators and real, physical devices). We're using the [node-firefox-ports](https://github.com/mozilla/node-firefox-ports) module as the base to help us devise a framework that works well. For more details, you can ask [sole](https://github.com/sole/) or [tofumatt](https://github.com/tofumatt/) in `irc.mozilla.org` #apps.
 
 ### Supported platforms
 
-Here's a very early-stages support matrix. Bear with us as we make more progresses ;)
+Here's a very early-stages support matrix. Bear with us as we make more progress ;)
 
 <table>
 	<tr>
@@ -29,13 +29,13 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 		<td>
 			<ul>
 				<li>simulator: x</li>
-				<li>browser: ?</li>
+				<li>browser: x</li>
 			</ul>
 		</td>
 		<td>
 			<ul>
 				<li>simulator: x</li>
-				<li>browser: ?</li>
+				<li>browser: x</li>
 			</ul>
 		</td>
 		<td></td>
