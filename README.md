@@ -60,6 +60,9 @@ fxos-deploy +--> fxos-connect +--> fx-ports ---> firefox-client
 	        |                 +--> fxos-start +--> fx-ports
 			|                                 |
 			|                                 +--> firefox-client
+			|                                 |
+			|                                 +--> fxos-simulators
+			|
 	        |
 	        +--> fxos-findapp +--> firefox-client
 			                  |
