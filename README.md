@@ -45,6 +45,45 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 
 *Note: Linux is tested on Ubuntu 14.*
 
+
 ## History
 
 Based on early work on [node-fxos](https://github.com/nicola/node-fxos) by Nicola Greco.
+
+### Dependencies
+
+In `node-fxos`, these are the dependencies between other modules of the project (or related, like `firefox-client`):
+
+```
+fxos-deploy +--> fxos-connect +--> fx-ports ---> firefox-client
+            |                 |
+	        |                 +--> fxos-start +--> fx-ports
+			|                                 |
+			|                                 +--> firefox-client
+	        |
+	        +--> fxos-findapp +--> firefox-client
+			                  |
+							  +--> fxos-connect
+
+
+fxos-simulators (no dependencies)
+
+
+fxos-reloadcss +--> fxos-connect --> ^^^
+               |
+			   +--> fxos-findapp --> ^^^
+
+
+fxos-console +--> fxos-findapp --> ^^^
+             |
+			 +--> fxconsole
+
+
+fxos-console-logs +--> fxos-findapp --> ^^^
+                  |
+				  +--> fxconsole
+
+
+note: ^^^ == see above
+
+```
