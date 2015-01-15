@@ -1,6 +1,6 @@
 # Contributing to node-firefox
 
-These are the general guidelines we're following when either porting modules from the [previous node-fxos project](https://github.com/nicola/node-fxos/), or when creating new modules:
+These are the guidelines we're following when either porting modules from the [previous node-fxos project](https://github.com/nicola/node-fxos/), or when creating new modules:
 
 1) **Remove as many dependencies as possible and make the code super simple**. Modules using Underscore and Q create situations where the code is *cryptic*, unless you're familiar with those. Use `es6-promise` and `Promise.all` instead.
 
