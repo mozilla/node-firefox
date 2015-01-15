@@ -42,7 +42,11 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 	</tr>
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-find-simulators"><tt>node-firefox-find-simulators</tt></a></td>
-		<td></td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
+		</td>
 		<td>
 			<ul>
 				<li>simulator: x</li>
