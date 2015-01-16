@@ -25,7 +25,7 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 		<th>Windows</th>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/mozilla/node-firefox-ports"><tt>node-firefox-ports</tt></a></td>
+		<td><a href="https://github.com/mozilla/node-firefox-find-ports"><tt>node-firefox-find-ports</tt></a></td>
 		<td>
 			<ul>
 				<li>simulator: x</li>
