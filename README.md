@@ -60,6 +60,9 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 
 *Note: Linux is tested on Ubuntu 14.*
 
+## Contributing
+
+It's still early stages, but we'd love to get you onboard, so we wrote some [guidelines for contributing](CONTRIBUTING.md).
 
 ## History
 
