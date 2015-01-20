@@ -65,7 +65,17 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 		</td>
 		<td></td>
 	</tr>
-
+	<tr>
+		<td><a href="https://github.com/mozilla/node-firefox-connect"><tt>node-firefox-connect</tt></a></td>
+		<td>
+		</td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
+		</td>
+		<td></td>
+	</tr>
 </table>
 
 
