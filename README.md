@@ -131,7 +131,7 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 
 ### Installing a packaged app
 
-<a href="https://github.com/mozilla/node-firefox-examples-install-packaged-app"><tt>node-firefox-install-packaged-app</tt></a> is a full project that shows how to install a packaged app using `node-firefox`.
+<a href="https://github.com/mozilla/node-firefox-examples-install-packaged"><tt>node-firefox-examples-install-packaged-app</tt></a> is a full project that shows how to install a packaged app using `node-firefox`.
 
 ## Contributing
 
