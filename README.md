@@ -137,6 +137,38 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 
 <a href="https://github.com/mozilla/node-firefox-examples-gulp"><tt>node-firefox-examples-gulp</tt></a> shows how to build, push and watch a packaged app using `node-firefox` with gulp and browserify.
 
+## Dependencies
+
+These are the dependencies between modules in the project (or closely related, like `firefox-client`).
+
+We're only representing required dependencies to run a given module, not dependencies required for running the examples, which are specified in the `devDependencies` section of the `package.json` of each module.
+
+```
+node-firefox-find-ports      +--> firefox-client
+
+
+node-firefox-find-simulators +--> (no dependencies)
+
+
+node-firefox-start-simulator +--> firefox-client
+                             |
+                             +--> node-firefox-find-simulators
+
+
+node-firefox-connect         +--> firefox-client
+
+
+node-firefox-find-app        +--> (no dependencies)
+
+
+node-firefox-install-app     +--> (no dependencies)
+
+
+node-firefox-launch-app      +--> (no dependencies)
+
+
+node-firefox-reload-css      +--> (no dependencies)
+```
 
 ## Contributing
 
@@ -146,43 +178,4 @@ It's still early stages, but we'd love to get you onboard, so we wrote some [gui
 
 Based on early work on [node-fxos](https://github.com/nicola/node-fxos) by Nicola Greco.
 
-### Dependencies
 
-In `node-fxos`, these are the dependencies between other modules of the project (or related, like `firefox-client`):
-
-```
-fxos-deploy +--> fxos-connect +--> fx-ports ---> firefox-client
-            |                 |
-	        |                 +--> fxos-start +--> fx-ports
-			|                                 |
-			|                                 +--> firefox-client
-			|                                 |
-			|                                 +--> fxos-simulators
-			|
-	        |
-	        +--> fxos-findapp +--> firefox-client
-			                  |
-							  +--> fxos-connect
-
-
-fxos-simulators (no dependencies)
-
-
-fxos-reloadcss +--> fxos-connect --> ^^^
-               |
-			   +--> fxos-findapp --> ^^^
-
-
-fxos-console +--> fxos-findapp --> ^^^
-             |
-			 +--> fxconsole
-
-
-fxos-console-logs +--> fxos-findapp --> ^^^
-                  |
-				  +--> fxconsole
-
-
-note: ^^^ == see above
-
-```
