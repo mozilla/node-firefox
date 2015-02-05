@@ -57,6 +57,9 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-start-simulator"><tt>node-firefox-start-simulator</tt></a></td>
 		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
 		</td>
 		<td>
 			<ul>
