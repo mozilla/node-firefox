@@ -38,7 +38,13 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 				<li>browser: x</li>
 			</ul>
 		</td>
-		<td></td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+				<li>browser: x</li>
+			</ul>
+		</td>
+
 	</tr>
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-find-simulators"><tt>node-firefox-find-simulators</tt></a></td>
@@ -52,7 +58,11 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 				<li>simulator: x</li>
 			</ul>
 		</td>
-		<td></td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-start-simulator"><tt>node-firefox-start-simulator</tt></a></td>
@@ -66,7 +76,11 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 				<li>simulator: x</li>
 			</ul>
 		</td>
-		<td></td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-connect"><tt>node-firefox-connect</tt></a></td>
