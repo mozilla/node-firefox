@@ -85,6 +85,9 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-connect"><tt>node-firefox-connect</tt></a></td>
 		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
 		</td>
 		<td>
 			<ul>
@@ -100,57 +103,92 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-find-app"><tt>node-firefox-find-app</tt></a></td>
 		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
 		</td>
 		<td>
 			<ul>
 				<li>simulator: x</li>
 			</ul>
 		</td>
-		<td></td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-install-app"><tt>node-firefox-install-app</tt></a></td>
 		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
 		</td>
 		<td>
 			<ul>
 				<li>simulator: x</li>
 			</ul>
 		</td>
-		<td></td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-uninstall-app"><tt>node-firefox-uninstall-app</tt></a></td>
 		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
 		</td>
 		<td>
 			<ul>
 				<li>simulator: x</li>
 			</ul>
 		</td>
-		<td></td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-launch-app"><tt>node-firefox-launch-app</tt></a></td>
 		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
 		</td>
 		<td>
 			<ul>
 				<li>simulator: x</li>
 			</ul>
 		</td>
-		<td></td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-reload-css"><tt>node-firefox-reload-css</tt></a></td>
 		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
 		</td>
 		<td>
 			<ul>
 				<li>simulator: x</li>
 			</ul>
 		</td>
-		<td></td>
+		<td>
+			<ul>
+				<li>simulator: x</li>
+			</ul>
+		</td>
 	</tr>
 
 
