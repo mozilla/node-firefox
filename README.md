@@ -6,7 +6,7 @@
 
 * Simplify app development for Firefox OS--make it look more like "normal" app development by enabling developers to use tools like Gulp to do things such as deploying to the device.
 * "Close the circle" with Cordova + Firefox OS and make it possible to run `cordova emulate` or `cordova deploy`.
-* Provide a command line tool which is somewhat equivalent in features to [WebIDE](https://developer.mozilla.org/docs/Tools/WebIDE), for people who like typing more than clicking.
+* Provide a command line tool which supports features of the [WebIDE](https://developer.mozilla.org/docs/Tools/WebIDE), for people who like typing more than clicking.
 * Mega grand goal: control/debug any browser on the command line via DevTools via [Valence](https://developer.mozilla.org/docs/Tools/Valence).
 
 ## Current status
@@ -15,7 +15,7 @@ We're code reviewing and auditing the existing modules, and figuring out how to 
 
 ### Supported platforms
 
-Here's a very early-stages support matrix. Bear with us as we make more progress ;)
+Here's a very early stages support matrix. Bear with us as we make more progress ;)
 
 <table>
 	<tr>
@@ -195,7 +195,7 @@ Here's a very early-stages support matrix. Bear with us as we make more progress
 </table>
 
 
-*Note: Linux is tested on Ubuntu 14.*
+*Note: Linux testing used Ubuntu 14.*
 
 ## Examples
 

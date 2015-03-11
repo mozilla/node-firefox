@@ -1,0 +1,8 @@
+cordova
+WebIDE
+DevTools
+tofumatt
+fxconsole
+firefox-client
+fxos-*
+node-*
