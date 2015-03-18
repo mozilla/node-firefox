@@ -1,12 +1,25 @@
 {
   "name": "node-firefox",
+  "version": "0.1.0",
+  "description": "Interact with Firefox via the DevTools remote protocol",
   "scripts": {
-    "test": "node ./test/run.js"
+    "gulp": "gulp",
+    "test": "gulp test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla/node-firefox.git"
+  },
+  "author": "Mozilla (https://mozilla.org/)",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/mozilla/node-firefox/issues"
+  },
+  "homepage": "https://github.com/mozilla/node-firefox",
   "devDependencies": {
-    "chai": "2.1.1",
-    "mocha": "2.1.0",
-    "teacher": "0.0.1",
-    "when": "3.7.2"
+    "es6-promise": "^2.0.1",
+    "gulp": "^3.8.11",
+    "node-firefox-build-tools": "^0.2.0",
+    "teacher": "0.0.1"
   }
 }

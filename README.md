@@ -211,7 +211,7 @@ Here's a very early stages support matrix. Bear with us as we make more progress
 
 These are the dependencies between modules in the project (or closely related, like `firefox-client`).
 
-We're only representing required dependencies to run a given module, not dependencies required for running the examples, which are specified in the `devDependencies` section of the `package.json` of each module.
+We're only representing required dependencies to run a given module, not dependencies required for running the examples. Those are in the `devDependencies` section each module's `package.json`.
 
 ```
 node-firefox-find-ports      +--> firefox-client

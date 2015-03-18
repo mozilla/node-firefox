@@ -4,5 +4,7 @@ DevTools
 tofumatt
 fxconsole
 firefox-client
+browserify
+devDependencies
 fxos-*
 node-*
