@@ -44,7 +44,38 @@ Here's a very early stages support matrix. Bear with us as we make more progress
 				<li>browser: x</li>
 			</ul>
 		</td>
-
+	</tr>
+	<tr>
+		<td><a href="https://github.com/mozilla/node-firefox-find-devices"><tt>node-firefox-find-devices</tt></a></td>
+		<td>
+			<ul>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li>device: x</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/mozilla/node-firefox-forward-ports"><tt>node-firefox-forward-ports</tt></a></td>
+		<td>
+			<ul>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li>device: x</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+			</ul>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/mozilla/node-firefox-find-simulators"><tt>node-firefox-find-simulators</tt></a></td>
