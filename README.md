@@ -5,7 +5,7 @@
 ## Some of our grand goals
 
 * Simplify app development for Firefox OS--make it look more like "normal" app development by enabling developers to use tools like Gulp to do things such as deploying to the device.
-* "Close the circle" with Cordova + Firefox OS and make it possible to run `cordova emulate` or `cordova deploy`.
+* "Close the circle" with Cordova + Firefox OS and make it possible to run `cordova emulate` or `cordova deploy`. ([In progress here](https://github.com/apache/cordova-firefoxos/pull/23).)
 * Provide a command line tool which supports features of the [WebIDE](https://developer.mozilla.org/docs/Tools/WebIDE), for people who like typing more than clicking.
 * Mega grand goal: control/debug any browser on the command line via DevTools via [Valence](https://developer.mozilla.org/docs/Tools/Valence).
 
