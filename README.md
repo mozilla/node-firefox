@@ -1,6 +1,61 @@
 # node-firefox
 
-*node.js modules for interacting with Firefox via the [DevTools](https://developer.mozilla.org/en-US/docs/Tools) [remote protocol](https://wiki.mozilla.org/Remote_Debugging_Protocol).*
+As an overall project, node-firefox is a family of modules made for interacting
+with Firefox via the [DevTools][] [Remote Protocol][].
+
+As a module, `node-firefox` serves as a table of contents for the rest of the
+modules in the node-firefox family. 
+
+[DevTools]: https://developer.mozilla.org/en-US/docs/Tools
+[Remote Protocol]: https://wiki.mozilla.org/Remote_Debugging_Protocol
+
+## Installation
+
+### npm
+
+```bash
+npm install node-firefox
+```
+
+### From git
+
+```bash
+git clone https://github.com/mozilla/node-firefox.git
+cd node-firefox
+npm install
+```
+
+If you want to update later on:
+
+```bash
+cd node-firefox
+git pull origin master
+npm install
+```
+
+## Usage
+
+Using `require('node-firefox')` yields an object with properties that contain
+instances of all the other modules in the `node-firefox` family installed as
+dependencies.
+
+For example:
+
+```javascript
+> var firefox = require('node-firefox');
+> Object.keys(firefox)
+[ 'findPorts',
+  'findDevices',
+  'forwardPorts',
+  'findSimulators',
+  'startSimulator',
+  'connect',
+  'findApp',
+  'installApp',
+  'uninstallApp',
+  'launchApp',
+  'reloadCss' ]
+```
 
 ## Some of our grand goals
 
