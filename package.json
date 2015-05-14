@@ -21,5 +21,18 @@
     "gulp": "^3.8.11",
     "node-firefox-build-tools": "^0.2.0",
     "teacher": "0.0.1"
+  },
+  "dependencies": {
+    "node-firefox-connect": "^1.2.0",
+    "node-firefox-find-app": "^1.1.0",
+    "node-firefox-find-devices": "^1.0.0",
+    "node-firefox-find-ports": "^1.2.0",
+    "node-firefox-find-simulators": "^1.3.0",
+    "node-firefox-forward-ports": "^1.0.0",
+    "node-firefox-install-app": "^1.1.0",
+    "node-firefox-launch-app": "^1.1.0",
+    "node-firefox-reload-css": "^1.2.0",
+    "node-firefox-start-simulator": "^1.3.1",
+    "node-firefox-uninstall-app": "^1.1.0"
   }
 }
