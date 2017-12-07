@@ -7,7 +7,7 @@ As a module, `node-firefox` serves as a table of contents for the rest of the
 modules in the node-firefox family. 
 
 [DevTools]: https://developer.mozilla.org/en-US/docs/Tools
-[Remote Protocol]: https://wiki.mozilla.org/Remote_Debugging_Protocol
+[Remote Protocol]:  https://searchfox.org/mozilla-central/source/devtools/docs/backend/protocol.md
 
 ## Installation
 
